@@ -2,3 +2,8 @@
   filter: invert(70%);
   height: 300px;
 }
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
